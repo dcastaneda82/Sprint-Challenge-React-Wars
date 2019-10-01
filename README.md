@@ -25,15 +25,17 @@ In this challenge, create a web page that presents a styled list of Star Wars ch
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
+A javascript library that allows programmers to create large scale applications and solves huge memory use.
 
 - [ ] What does it mean to _think_ in react?
+It means thinking about components, reusable or not.
 
 - [ ] Describe state.
-
+State is a "variable" at component level and it is owned locally
 - [ ] Describe props.
-
+Props are a "variable" at a parent component level and its passed to the child to trigger changed in the parent component
 - [ ] What are side effects, and how do you sync effects in a React component to state or prop changes?
-
+Side effects happen after react updates the DOM on every render. Use, useState(), to set state from within useEffect().  When we use props they automatically sync with useState(), when props get changed it will set the state inside useEffect.
 ## Project Set Up
 
 Follow these steps to set up and work on your project:
