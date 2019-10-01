@@ -1,0 +1,26 @@
+.SWCard {
+    /* background-color: aliceblue; */
+    /* width: 800px; */
+    display: inline-block;
+    /* margin-top: 25px;
+    border-radius: 10px; */
+}
+
+.SWCard h1 {
+    background-color: aliceblue;
+    padding: 10px;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+
+.SWCard .h2s {
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+.SWCard:first-child{
+    border-radius: 10px 0;
+}
